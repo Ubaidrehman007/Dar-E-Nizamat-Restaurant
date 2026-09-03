@@ -1,535 +1,251 @@
-<!doctype html>
+<!DOCTYPE html>
 <html lang="en">
 
 <head>
-    <meta charset="UTF-8" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Royal Spice Restaurant | Menu</title>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Dar E Nizamat | Authentic Mughlai Menu</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Cinzel:wght@400;600;700;800&family=Playfair+Display:ital,wght@0,400;0,600;0,700;1,400&family=Plus+Jakarta+Sans:wght@300;400;500;600;700&display=swap"
+        rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css">
+    <link rel="stylesheet" href="style.css">
 </head>
 
-<body bgcolor="papayawhip" text="saddlebrown" link="maroon" vlink="darkred" alink="gold" leftmargin="20" topmargin="15">
+<body>
 
-    <!-- HEADER -->
-    <header>
-        <table width="100%" border="0" cellpadding="10" cellspacing="0">
-            <tr>
-                <td align="center">
-                    <font face="Georgia" size="6" color="maroon">
-                        <b> 🍴 Royal Spice Restaurant 🍴 </b>
-                    </font>
-                </td>
-            </tr>
-        </table>
+    <!-- Header Navigation -->
+    <header class="navbar">
+        <div class="nav-container">
+            <a href="index.html" class="brand-logo">
+                <div class="logo-badge">DN</div>
+                <div class="brand-text">
+                    <h1>DAR E NIZAMAT</h1>
+                    <span>दर ए निज़ामात • Mughlai Dining • دارِ نظامت</span>
+                </div>
+            </a>
+            <ul class="nav-links">
+                <li><a href="index.html">Home</a></li>
+                <li><a href="menu.html" class="active">Menu</a></li>
+                <li><a href="about.html">About Us</a></li>
+                <li><a href="contact.html">Contact & Reserve</a></li>
+            </ul>
+            <div class="nav-cta">
+                <a href="contact.html" class="btn-gold"><i class="fa-regular fa-calendar-check"></i> Book A Table</a>
+            </div>
+        </div>
     </header>
 
-    <!-- NAVBAR -->
-    <nav>
-        <table width="100%" border="0" cellpadding="8" cellspacing="0">
-            <tr>
-                <td align="center">
-                    <font face="Georgia" size="4">
-                        <b>
-                            <a href="index.html"> Home </a> &nbsp; | &nbsp;
-                            <a href="menu.html"> Menu </a>&nbsp; | &nbsp;
-                            <a href="about.html"> About </a>&nbsp; | &nbsp;
-                            <a href="contact.html"> Contact </a>
-                        </b>
-                    </font>
-                </td>
-            </tr>
-        </table>
-    </nav>
+    <section class="section" style="padding-top: 8rem; text-align: center;">
+        <span class="section-tag">Royal Selections</span>
+        <h1 class="section-heading">Dar E Nizamat Dastarkhwan</h1>
+        <p style="color: #9ca3af; max-width: 600px; margin: 1rem auto;">Savor authentic Mughlai gravies, mutton
+            preparations, and coal-roasted appetizers (₹400 – ₹1,200 per guest).</p>
+    </section>
 
-    <hr color="goldenrod" size="2" />
+    <!-- Starters & Appetizers -->
+    <section class="section" style="padding-top: 0;">
+        <div class="section-title-wrap">
+            <span class="section-tag">Course 01</span>
+            <h2 class="section-heading" style="font-size: 2rem;">Appetizers & Tandoor</h2>
+        </div>
+        <div class="grid-4">
+            <div class="menu-card">
+                <div class="menu-img-wrap">
+                    <img src="images/CHarCoalChickenTikka.png"
+                        alt="Charred spicy red chicken tikka boti on wooden platter with onion rings and lemon wedge">
+                </div>
+                <div class="menu-content">
+                    <div class="menu-header">
+                        <h4 class="dish-title">Nizami Chicken Tikka</h4>
+                        <span class="dish-price">₹280</span>
+                    </div>
+                    <p class="dish-desc">Charcoal-grilled boneless chicken marinated in degi mirch and roasted spices.
+                    </p>
+                </div>
+            </div>
+            <div class="menu-card">
+                <div class="menu-img-wrap">
+                    <img src="images/muttonseekhkabab.png"
+                        alt="Juicy minced mutton seekh kebabs straight from the clay oven seasoned with fresh mint and coriander">
+                </div>
+                <div class="menu-content">
+                    <div class="menu-header">
+                        <h4 class="dish-title">Mutton Seekh Kebab</h4>
+                        <span class="dish-price">₹340</span>
+                    </div>
+                    <p class="dish-desc">Minced tender mutton infused with fresh herbs and roasted over glowing coals.
+                    </p>
+                </div>
+            </div>
+            <div class="menu-card">
+                <div class="menu-img-wrap">
+                    <img src="images/Paneertikka.png"
+                        alt="Tandoori spiced paneer cubes grilled on skewers with capsicum slices and fresh mint chutney">
+                </div>
+                <div class="menu-content">
+                    <div class="menu-header">
+                        <h4 class="dish-title">Tandoori Paneer Tikka</h4>
+                        <span class="dish-price">₹220</span>
+                    </div>
+                    <p class="dish-desc">Fresh cottage cheese cubes spiced with tandoori masala and charred to
+                        perfection.</p>
+                </div>
+            </div>
+            <div class="menu-card">
+                <div class="menu-img-wrap">
+                    <img src="images/chcikencrispyroll.png"
+                        alt="Crispy golden Mughlai chicken spring rolls served with spicy garlic dipping sauce">
+                </div>
+                <div class="menu-content">
+                    <div class="menu-header">
+                        <h4 class="dish-title">Crispy Chicken Rolls</h4>
+                        <span class="dish-price">₹240</span>
+                    </div>
+                    <p class="dish-desc">Crisp golden wrappers filled with spiced shredded chicken and spring onions.
+                    </p>
+                </div>
+            </div>
+        </div>
+    </section>
 
-    <!-- MAIN CONTENT -->
-    <main>
-        <!-- PAGE TITLE -->
-        <section>
-            <table width="100%" border="0" cellpadding="8" cellspacing="0">
-                <tr>
-                    <td align="center">
-                        <font face="Georgia" size="6" color="maroon">
-                            <b> Our Menu </b>
-                        </font>
-                        <br />
-                        <font size="4" color="goldenrod"> --- ❖ --- </font>
-                    </td>
-                </tr>
-            </table>
-        </section>
+    <!-- Main Course Mughlai Specialties -->
+    <section class="section" style="padding-top: 0;">
+        <div class="section-title-wrap">
+            <span class="section-tag">Course 02</span>
+            <h2 class="section-heading" style="font-size: 2rem;">Mughlai Chicken & Mutton Gravies</h2>
+        </div>
+        <div class="grid-4">
+            <div class="menu-card">
+                <div class="menu-img-wrap">
+                    <img src="images/MughalaiGravy.png"
+                        alt="Dar E Nizamat signature rich chicken gravy cooked with cashews, fried onions, and cream">
+                </div>
+                <div class="menu-content">
+                    <div class="menu-header">
+                        <h4 class="dish-title">Mughlai Chicken Gravy</h4>
+                        <span class="dish-price">₹380</span>
+                    </div>
+                    <p class="dish-desc">Our crowd-favorite rich, creamy gravy with fragrant royal spice notes.</p>
+                </div>
+            </div>
+            <div class="menu-card">
+                <div class="menu-img-wrap">
+                    <img src="images/NizamiMuttonKorma.png" alt=" Slow-cooked Mutton Handi curry topped with julienned ginger and green chilies in clay
+                        pot">
+                </div>
+                <div class="menu-content">
+                    <div class="menu-header">
+                        <h4 class="dish-title">Nizami Mutton Handi</h4>
+                        <span class="dish-price">₹480</span>
+                    </div>
+                    <p class="dish-desc">Slow-simmered bone-in mutton cooked inside sealed clay pots with whole spices.
+                    </p>
+                </div>
+            </div>
+            <div class="menu-card">
+                <div class="menu-img-wrap">
+                    <img src="images/butterchicken.png"
+                        alt="Classic creamy Butter Chicken with smooth orange tomato satin gravy and butter melted on top">
+                </div>
+                <div class="menu-content">
+                    <div class="menu-header">
+                        <h4 class="dish-title">Butter Chicken</h4>
+                        <span class="dish-price">₹360</span>
+                    </div>
+                    <p class="dish-desc">Smoky shredded tandoori chicken cooked in a rich tomato, butter, and cream
+                        sauce.</p>
+                </div>
+            </div>
+            <div class="menu-card">
+                <div class="menu-img-wrap">
+                    <img src="images/chickenbiryani.png"
+                        alt="Aromatic Dum Chicken Biryani served with brown onions, boiled egg, and spicy gravy mirchi ka salan">
+                </div>
+                <div class="menu-content">
+                    <div class="menu-header">
+                        <h4 class="dish-title">Dum Chicken Biryani</h4>
+                        <span class="dish-price">₹320</span>
+                    </div>
+                    <p class="dish-desc">Aromatic long-grain basmati rice layered with spiced chicken and saffron steam.
+                    </p>
+                </div>
+            </div>
+        </div>
+    </section>
 
-        <!-- STARTERS SECTION -->
-        <section>
-            <table width="100%" border="0" cellpadding="5" cellspacing="0">
-                <tr>
-                    <td align="center">
-                        <font face="Georgia" size="5" color="maroon">
-                            <b> Starters </b>
-                        </font>
-                    </td>
-                </tr>
-            </table>
+    <!-- Desserts & Beverages -->
+    <section class="section" style="padding-top: 0;">
+        <div class="section-title-wrap">
+            <span class="section-tag">Course 03</span>
+            <h2 class="section-heading" style="font-size: 2rem;">Breads, Drinks & Desserts</h2>
+        </div>
+        <div class="grid-4">
+            <div class="menu-card">
+                <div class="menu-img-wrap">
+                    <img src="images/butterroti.png"
+                        alt="Freshly baked tandoori garlic butter naan with crisp bubbly edges and melting butter">
+                </div>
+                <div class="menu-content">
+                    <div class="menu-header">
+                        <h4 class="dish-title">Butter Garlic Naan</h4>
+                        <span class="dish-price">₹60</span>
+                    </div>
+                    <p class="dish-desc">Clay-oven baked flatbread brushed with crushed garlic and melted butter.</p>
+                </div>
+            </div>
+            <div class="menu-card">
+                <div class="menu-img-wrap">
+                    <img src="images/shahitukda.png"
+                        alt="Traditional Shahi Tukda dessert soaked in rabri with saffron and crushed pistachios">
+                </div>
+                <div class="menu-content">
+                    <div class="menu-header">
+                        <h4 class="dish-title">Royal Shahi Tukda</h4>
+                        <span class="dish-price">₹140</span>
+                    </div>
+                    <p class="dish-desc">Crispy ghee-fried bread dipped in cardamom syrup, covered in thick rabri.</p>
+                </div>
+            </div>
+            <div class="menu-card">
+                <div class="menu-img-wrap">
+                    <img src="images/mintlimecooler.png"
+                        alt="Chilled mint lime virgin mojito with crushed ice and soda bubbles in a tall glass">
+                </div>
+                <div class="menu-content">
+                    <div class="menu-header">
+                        <h4 class="dish-title">Mint Lime Cooler</h4>
+                        <span class="dish-price">₹120</span>
+                    </div>
+                    <p class="dish-desc">Freshly muddled mint leaves, lime juice, rock salt, and chilled soda.</p>
+                </div>
+            </div>
+            <div class="menu-card">
+                <div class="menu-img-wrap">
+                    <img src="images/gulabjamun.png"
+                        alt="Warm soft gulab jamun in cardamom sugar syrup garnished with silver vark and pistachio">
+                </div>
+                <div class="menu-content">
+                    <div class="menu-header">
+                        <h4 class="dish-title">Gulab Jamun (2 Pcs)</h4>
+                        <span class="dish-price">₹90</span>
+                    </div>
+                    <p class="dish-desc">Classic soft milk dumplings soaked deeply in rose-scented cardamom syrup.</p>
+                </div>
+            </div>
+        </div>
+    </section>
 
-            <table width="80%" border="1" bordercolor="goldenrod" cellpadding="8" cellspacing="0" align="center"
-                bgcolor="white">
-                <tr bgcolor="wheat">
-                    <th width="25%">
-                        <font face="Georgia" size="4" color="maroon"> Dish </font>
-                    </th>
-                    <th width="40%">
-                        <font face="Georgia" size="4" color="maroon"> Description </font>
-                    </th>
-                    <th width="15%">
-                        <font face="Georgia" size="4" color="maroon"> Price </font>
-                    </th>
-                    <th width="20%">
-                        <font face="Georgia" size="4" color="maroon"> Image </font>
-                    </th>
-                </tr>
-
-                <!-- Veg Spring Rolls -->
-                <tr>
-                    <td>
-                        <font face="Georgia" size="4" color="saddlebrown">
-                            <b> Veg Spring Rolls </b>
-                        </font>
-                    </td>
-                    <td>
-                        <font face="Georgia" size="4" color="saddlebrown">
-                            Crispy rolls filled with fresh vegetables.
-                        </font>
-                    </td>
-                    <td align="center">
-                        <font face="Georgia" size="4" color="saddlebrown"> ₹120 </font>
-                    </td>
-                    <td align="center">
-                        <img src="images/vegspring.png" alt="Veg Spring Rolls" width="160" height="80" />
-                    </td>
-                </tr>
-
-                <!-- Paneer Tikka -->
-                <tr>
-                    <td>
-                        <font face="Georgia" size="4" color="saddlebrown">
-                            <b> Paneer Tikka </b>
-                        </font>
-                    </td>
-                    <td>
-                        <font face="Georgia" size="4" color="saddlebrown">
-                            Grilled cottage cheese cubes with spices.
-                        </font>
-                    </td>
-                    <td align="center">
-                        <font face="Georgia" size="4" color="saddlebrown"> ₹150 </font>
-                    </td>
-                    <td align="center">
-                        <img src="images/Paneertikka.png" alt="Paneer Tikka" width="160" height="80" />
-                    </td>
-                </tr>
-
-                <!-- Chicken Wings -->
-                <tr>
-                    <td>
-                        <font face="Georgia" size="4" color="saddlebrown">
-                            <b> Chicken Wings </b>
-                        </font>
-                    </td>
-                    <td>
-                        <font face="Georgia" size="4" color="saddlebrown">
-                            Spicy and juicy chicken wings.
-                        </font>
-                    </td>
-                    <td align="center">
-                        <font face="Georgia" size="4" color="saddlebrown"> ₹180 </font>
-                    </td>
-                    <td align="center">
-                        <img src="images/chickenwings.png" alt="Chicken Wings" width="160" height="80" />
-                    </td>
-                </tr>
-
-                <!-- Nachos -->
-                <tr>
-                    <td>
-                        <font face="Georgia" size="4" color="saddlebrown">
-                            <b> Nachos with Salsa </b>
-                        </font>
-                    </td>
-                    <td>
-                        <font face="Georgia" size="4" color="saddlebrown">
-                            Crispy nachos served with salsa.
-                        </font>
-                    </td>
-                    <td align="center">
-                        <font face="Georgia" size="4" color="saddlebrown"> ₹130 </font>
-                    </td>
-                    <td align="center">
-                        <img src="images/nachossalsa.png" alt="Nachos with Salsa" width="160" height="80" />
-                    </td>
-                </tr>
-            </table>
-        </section>
-
-        <br />
-
-        <!-- MAIN COURSE SECTION -->
-        <section>
-            <table width="100%" border="0" cellpadding="5" cellspacing="0">
-                <tr>
-                    <td align="center">
-                        <font face="Georgia" size="5" color="maroon">
-                            <b> Main Course </b>
-                        </font>
-                    </td>
-                </tr>
-            </table>
-
-            <table width="80%" border="1" bordercolor="goldenrod" cellpadding="8" cellspacing="0" align="center"
-                bgcolor="white">
-                <tr bgcolor="wheat">
-                    <th width="25%">
-                        <font face="Georgia" size="4" color="maroon"> Dish </font>
-                    </th>
-                    <th width="40%">
-                        <font face="Georgia" size="4" color="maroon"> Description </font>
-                    </th>
-                    <th width="15%">
-                        <font face="Georgia" size="4" color="maroon"> Price </font>
-                    </th>
-                    <th width="20%">
-                        <font face="Georgia" size="4" color="maroon"> Image </font>
-                    </th>
-                </tr>
-
-                <!-- Paneer Butter Masala -->
-                <tr>
-                    <td>
-                        <font face="Georgia" size="4" color="saddlebrown">
-                            <b> Paneer Butter Masala </b>
-                        </font>
-                    </td>
-                    <td>
-                        <font face="Georgia" size="4" color="saddlebrown">
-                            Cottage cheese cooked in creamy tomato gravy.
-                        </font>
-                    </td>
-                    <td align="center">
-                        <font face="Georgia" size="4" color="saddlebrown"> ₹220 </font>
-                    </td>
-                    <td align="center">
-                        <img src="images/paneerbutter.png" alt="Paneer Butter Masala" width="160" height="80" />
-                    </td>
-                </tr>
-
-                <!-- Chicken Biryani -->
-                <tr>
-                    <td>
-                        <font face="Georgia" size="4" color="saddlebrown">
-                            <b> Chicken Biryani </b>
-                        </font>
-                    </td>
-                    <td>
-                        <font face="Georgia" size="4" color="saddlebrown">
-                            Aromatic basmati rice cooked with chicken.
-                        </font>
-                    </td>
-                    <td align="center">
-                        <font face="Georgia" size="4" color="saddlebrown"> ₹250 </font>
-                    </td>
-                    <td align="center">
-                        <img src="images/chickenbiryani.png" alt="Chicken Biryani" width="160" height="80" />
-                    </td>
-                </tr>
-
-                <!-- Veg Pasta -->
-                <tr>
-                    <td>
-                        <font face="Georgia" size="4" color="saddlebrown">
-                            <b> Veg Pasta </b>
-                        </font>
-                    </td>
-                    <td>
-                        <font face="Georgia" size="4" color="saddlebrown">
-                            Pasta tossed with fresh vegetables.
-                        </font>
-                    </td>
-                    <td align="center">
-                        <font face="Georgia" size="4" color="saddlebrown"> ₹200 </font>
-                    </td>
-                    <td align="center">
-                        <img src="images/vegpasta.png" alt="Veg Pasta" width="160" height="80" />
-                    </td>
-                </tr>
-
-                <!-- Dal Makhani -->
-                <tr>
-                    <td>
-                        <font face="Georgia" size="4" color="saddlebrown">
-                            <b> Dal Makhani </b>
-                        </font>
-                    </td>
-                    <td>
-                        <font face="Georgia" size="4" color="saddlebrown">
-                            Black lentils cooked with butter and cream.
-                        </font>
-                    </td>
-                    <td align="center">
-                        <font face="Georgia" size="4" color="saddlebrown"> ₹180 </font>
-                    </td>
-                    <td align="center">
-                        <img src="images/daalmakhni.png" alt="Dal Makhani" width="160" height="80" />
-                    </td>
-                </tr>
-            </table>
-        </section>
-
-        <br />
-
-        <!-- DESSERTS SECTION -->
-        <section>
-            <table width="100%" border="0" cellpadding="5" cellspacing="0">
-                <tr>
-                    <td align="center">
-                        <font face="Georgia" size="5" color="maroon">
-                            <b> Desserts </b>
-                        </font>
-                    </td>
-                </tr>
-            </table>
-
-            <table width="80%" border="1" bordercolor="goldenrod" cellpadding="8" cellspacing="0" align="center"
-                bgcolor="white">
-                <tr bgcolor="wheat">
-                    <th width="25%">
-                        <font face="Georgia" size="4" color="maroon"> Dish </font>
-                    </th>
-                    <th width="40%">
-                        <font face="Georgia" size="4" color="maroon"> Description </font>
-                    </th>
-                    <th width="15%">
-                        <font face="Georgia" size="4" color="maroon"> Price </font>
-                    </th>
-                    <th width="20%">
-                        <font face="Georgia" size="4" color="maroon"> Image </font>
-                    </th>
-                </tr>
-
-                <!-- Chocolate Brownie -->
-                <tr>
-                    <td>
-                        <font face="Georgia" size="4" color="saddlebrown">
-                            <b> Chocolate Brownie </b>
-                        </font>
-                    </td>
-                    <td>
-                        <font face="Georgia" size="4" color="saddlebrown">
-                            Warm brownie served with chocolate sauce.
-                        </font>
-                    </td>
-                    <td align="center">
-                        <font face="Georgia" size="4" color="saddlebrown"> ₹120 </font>
-                    </td>
-                    <td align="center">
-                        <img src="images/choclatebrownie.png" alt="Chocolate Brownie" width="160" height="80" />
-                    </td>
-                </tr>
-
-                <!-- Gulab Jamun -->
-                <tr>
-                    <td>
-                        <font face="Georgia" size="4" color="saddlebrown">
-                            <b> Gulab Jamun </b>
-                        </font>
-                    </td>
-                    <td>
-                        <font face="Georgia" size="4" color="saddlebrown">
-                            Soft and sweet milk dumplings.
-                        </font>
-                    </td>
-                    <td align="center">
-                        <font face="Georgia" size="4" color="saddlebrown"> ₹80 </font>
-                    </td>
-                    <td align="center">
-                        <img src="images/gulabjamun.png" alt="Gulab Jamun" width="160" height="80" />
-                    </td>
-                </tr>
-
-                <!-- Ice Cream -->
-                <tr>
-                    <td>
-                        <font face="Georgia" size="4" color="saddlebrown">
-                            <b> Ice Cream </b>
-                        </font>
-                    </td>
-                    <td>
-                        <font face="Georgia" size="4" color="saddlebrown">
-                            Vanilla / Chocolate / Strawberry.
-                        </font>
-                    </td>
-                    <td align="center">
-                        <font face="Georgia" size="4" color="saddlebrown"> ₹70 </font>
-                    </td>
-                    <td align="center">
-                        <img src="images/icecream.png" alt="Ice Cream" width="160" height="80" />
-                    </td>
-                </tr>
-
-                <!-- Fruit Salad -->
-                <tr>
-                    <td>
-                        <font face="Georgia" size="4" color="saddlebrown">
-                            <b> Fruit Salad </b>
-                        </font>
-                    </td>
-                    <td>
-                        <font face="Georgia" size="4" color="saddlebrown">
-                            Fresh seasonal fruits with cream.
-                        </font>
-                    </td>
-                    <td align="center">
-                        <font face="Georgia" size="4" color="saddlebrown"> ₹90 </font>
-                    </td>
-                    <td align="center">
-                        <img src="images/fruitsalad.png" alt="Fruit Salad" width="160" height="80" />
-                    </td>
-                </tr>
-            </table>
-        </section>
-
-        <br />
-
-        <!-- BEVERAGES SECTION -->
-        <section>
-            <table width="100%" border="0" cellpadding="5" cellspacing="0">
-                <tr>
-                    <td align="center">
-                        <font face="Georgia" size="5" color="maroon">
-                            <b> Beverages </b>
-                        </font>
-                    </td>
-                </tr>
-            </table>
-
-            <table width="80%" border="1" bordercolor="goldenrod" cellpadding="8" cellspacing="0" align="center"
-                bgcolor="white">
-                <tr bgcolor="wheat">
-                    <th width="25%">
-                        <font face="Georgia" size="4" color="maroon"> Dish </font>
-                    </th>
-                    <th width="40%">
-                        <font face="Georgia" size="4" color="maroon"> Description </font>
-                    </th>
-                    <th width="15%">
-                        <font face="Georgia" size="4" color="maroon"> Price </font>
-                    </th>
-                    <th width="20%">
-                        <font face="Georgia" size="4" color="maroon"> Image </font>
-                    </th>
-                </tr>
-
-                <!-- Fresh Lime Soda -->
-                <tr>
-                    <td>
-                        <font face="Georgia" size="4" color="saddlebrown">
-                            <b> Fresh Lime Soda </b>
-                        </font>
-                    </td>
-                    <td>
-                        <font face="Georgia" size="4" color="saddlebrown"> Refreshing lime soda. </font>
-                    </td>
-                    <td align="center">
-                        <font face="Georgia" size="4" color="saddlebrown"> ₹60 </font>
-                    </td>
-                    <td align="center">
-                        <img src="images/freshlime.png" alt="Fresh Lime Soda" width="160" height="80" />
-                    </td>
-                </tr>
-
-                <!-- Cold Coffee -->
-                <tr>
-                    <td>
-                        <font face="Georgia" size="4" color="saddlebrown">
-                            <b> Cold Coffee </b>
-                        </font>
-                    </td>
-                    <td>
-                        <font face="Georgia" size="4" color="saddlebrown">
-                            Chilled coffee with ice cream.
-                        </font>
-                    </td>
-                    <td align="center">
-                        <font face="Georgia" size="4" color="saddlebrown"> ₹100 </font>
-                    </td>
-                    <td align="center">
-                        <img src="images/coldcoffee.png" alt="Cold Coffee" width="160" height="80" />
-                    </td>
-                </tr>
-
-                <!-- Masala Tea -->
-                <tr>
-                    <td>
-                        <font face="Georgia" size="4" color="saddlebrown">
-                            <b> Masala Tea </b>
-                        </font>
-                    </td>
-                    <td>
-                        <font face="Georgia" size="4" color="saddlebrown">
-                            Traditional Indian masala tea.
-                        </font>
-                    </td>
-                    <td align="center">
-                        <font face="Georgia" size="4" color="saddlebrown"> ₹40 </font>
-                    </td>
-                    <td align="center">
-                        <img src="images/masalatea.png" alt="Masala Tea" width="160" height="80" />
-                    </td>
-                </tr>
-
-                <!-- Hot Chocolate -->
-                <tr>
-                    <td>
-                        <font face="Georgia" size="4" color="saddlebrown">
-                            <b> Hot Chocolate </b>
-                        </font>
-                    </td>
-                    <td>
-                        <font face="Georgia" size="4" color="saddlebrown">
-                            Rich and creamy hot chocolate.
-                        </font>
-                    </td>
-                    <td align="center">
-                        <font face="Georgia" size="4" color="saddlebrown"> ₹90 </font>
-                    </td>
-                    <td align="center">
-                        <img src="images/hotchoc.png" alt="Hot Chocolate" width="160" height="80" />
-                    </td>
-                </tr>
-            </table>
-        </section>
-    </main>
-
-    <br />
-
-    <hr color="goldenrod" size="2" />
-
-    <!-- FOOTER -->
+    <!-- Footer -->
     <footer>
-        <table width="100%" border="0" cellpadding="10" cellspacing="0">
-            <tr>
-                <td align="center">
-                    <font face="Georgia" size="4" color="saddlebrown">
-                        © 2026 Royal Spice Restaurant. All Rights Reserved.
-                    </font>
-
-                    <br /><br />
-
-                    <font face="Georgia" size="4" color="maroon">
-                        <b> Thank You For Visiting Our Website! </b>
-                    </font>
-                </td>
-            </tr>
-        </table>
+        <div class="footer-content">
+            <h2 style="font-family: 'Cinzel', serif; color: #dfb13c; letter-spacing: 0.15em;">DAR E NIZAMAT</h2>
+            <p class="footer-copy">© 2026 Dar E Nizamat (दर ए निज़ामात). All Rights Reserved.</p>
+        </div>
     </footer>
+
 </body>
 
 </html>

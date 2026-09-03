@@ -1,236 +1,216 @@
-<!doctype html>
+<!DOCTYPE html>
 <html lang="en">
 
 <head>
-    <meta charset="UTF-8" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Royal Spice Restaurant | Home</title>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Dar E Nizamat | Authentic Mughlai Dining & Lounge</title>
+
+    <!-- Google Fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Cinzel:wght@400;600;700;800&family=Playfair+Display:ital,wght@0,400;0,600;0,700;1,400&family=Plus+Jakarta+Sans:wght@300;400;500;600;700&display=swap"
+        rel="stylesheet">
+
+    <!-- FontAwesome Icons -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css">
+
+    <!-- Custom CSS -->
+    <link rel="stylesheet" href="style.css">
 </head>
 
-<body bgcolor="papayawhip" text="saddlebrown" link="maroon" vlink="darkred" alink="gold" leftmargin="20" topmargin="15">
+<body>
 
-    <!-- HEADER -->
-    <header>
-        <table width="100%" cellpadding="10" cellspacing="0" border="0">
-            <tr>
-                <td align="center">
-                    <font face="Georgia" size="6" color="maroon">
-                        <b> 🍽️ Royal Spice Restaurant 🍽️ </b>
-                    </font>
-                </td>
-            </tr>
-        </table>
+    <!-- Header Navigation -->
+    <header class="navbar">
+        <div class="nav-container">
+            <a href="index.html" class="brand-logo">
+                <div class="logo-badge">DN</div>
+                <div class="brand-text">
+                    <h1>DAR E NIZAMAT</h1>
+                    <span>दर ए निज़ामात • Mughlai Dining • دارِ نظامت</span>
+                </div>
+            </a>
+            <ul class="nav-links">
+                <li><a href="index.html" class="active">Home</a></li>
+                <li><a href="menu.html">Menu</a></li>
+                <li><a href="about.html">About Us</a></li>
+                <li><a href="contact.html">Contact & Reserve</a></li>
+            </ul>
+            <div class="nav-cta">
+                <a href="contact.html" class="btn-gold"><i class="fa-regular fa-calendar-check"></i> Book A Table</a>
+            </div>
+        </div>
     </header>
 
-    <!-- NAVBAR -->
-    <nav>
-        <table width="100%" cellpadding="8" cellspacing="0" border="0">
-            <tr>
-                <td align="center">
-                    <font face="Georgia" size="4">
-                        <b>
-                            <a href="index.html"> Home </a>&nbsp; | &nbsp;
-                            <a href="menu.html"> Menu </a>&nbsp; | &nbsp;
-                            <a href="about.html"> About </a>&nbsp; | &nbsp;
-                            <a href="contact.html"> Contact </a>
-                        </b>
-                    </font>
-                </td>
-            </tr>
-        </table>
-    </nav>
+    <!-- Hero Section -->
+    <section class="hero">
+        <img src="https://images.unsplash.com/photo-1517248135467-4c7edcad34c4?q=80&w=1920"
+            alt="Dar E Nizamat royal interior ambiance with ambient dim pendant lights and luxury seating opposite Palm Riviera Mumbra"
+            class="hero-bg">
+        <div class="hero-overlay"></div>
+        <div class="hero-content">
+            <div class="hero-badge">
+                <i class="fa-solid fa-crown"></i> Authentic Mughlai Heritage • Mumbra
+            </div>
+            <h1 class="hero-title">A Feast Of Nizami Flavours <br><span class="gold-gradient-text font-serif-italic">Dar
+                    E Nizamat</span></h1>
+            <p class="hero-subtitle">Relish rich Mughlai chicken gravies, slow-simmered tender mutton curries, and
+                handcrafted tandoori kebabs in a captivating ambient dining lounge.</p>
+            <div class="hero-cta-group">
+                <a href="menu.html" class="btn-gold">Explore Nizami Menu</a>
+                <a href="contact.html" class="btn-outline">Reserve Seating</a>
+            </div>
+        </div>
+    </section>
 
-    <hr color="goldenrod" size="2" />
+    <!-- Why Choose Us -->
+    <section class="section">
+        <div class="section-title-wrap">
+            <span class="section-tag">Royal Hospitality</span>
+            <h2 class="section-heading">The Nizamat Experience</h2>
+        </div>
+        <div class="grid-4">
+            <div class="glass-card">
+                <i class="fa-solid fa-drumstick-bite"
+                    style="color: #dfb13c; font-size: 1.8rem; margin-bottom: 1rem;"></i>
+                <h3 style="font-family: 'Cinzel', serif; margin-bottom: 0.5rem;">Authentic Mughlai</h3>
+                <p style="color: #9ca3af; font-size: 0.85rem;">Time-tested royal recipes infused with aromatic khada
+                    masalas and saffron-infused reductions.</p>
+            </div>
+            <div class="glass-card">
+                <i class="fa-solid fa-couch" style="color: #dfb13c; font-size: 1.8rem; margin-bottom: 1rem;"></i>
+                <h3 style="font-family: 'Cinzel', serif; margin-bottom: 0.5rem;">Stunning Ambience</h3>
+                <p style="color: #9ca3af; font-size: 0.85rem;">Designed for comfortable gatherings, family dinners, and
+                    relaxed evening get-togethers.</p>
+            </div>
+            <div class="glass-card">
+                <i class="fa-solid fa-wallet" style="color: #dfb13c; font-size: 1.8rem; margin-bottom: 1rem;"></i>
+                <h3 style="font-family: 'Cinzel', serif; margin-bottom: 0.5rem;">Exceptional Value</h3>
+                <p style="color: #9ca3af; font-size: 0.85rem;">Grand portions and fine dining quality priced
+                    thoughtfully at ₹400 – ₹1,200 per person.</p>
+            </div>
+            <div class="glass-card">
+                <i class="fa-solid fa-users" style="color: #dfb13c; font-size: 1.8rem; margin-bottom: 1rem;"></i>
+                <h3 style="font-family: 'Cinzel', serif; margin-bottom: 0.5rem;">Family Friendly</h3>
+                <p style="color: #9ca3af; font-size: 0.85rem;">Spacious, welcoming venue right on Elite C, opposite Palm
+                    Riviera.</p>
+            </div>
+        </div>
+    </section>
 
-    <main>
-        <!-- WELCOME SECTION -->
-        <section>
-            <table width="100%" cellpadding="10" cellspacing="0" border="0">
-                <tr>
-                    <td align="center">
-                        <font face="Georgia" size="6" color="maroon">
-                            <b> Welcome to Royal Spice Restaurant </b>
-                        </font>
+    <!-- Specials / Signature Mughlai -->
+    <section class="section" style="background: #121318; border-radius: 2rem; border: 1px solid rgba(212,175,55,0.2);">
+        <div class="section-title-wrap">
+            <span class="section-tag">Chef's Signature</span>
+            <h2 class="section-heading">Dar E Nizamat Signatures</h2>
+        </div>
+        <div class="grid-3">
+            <div class="menu-card">
+                <div class="menu-img-wrap">
+                    <img src="images/MughalaiGravy.png"
+                        alt="Nizami Mughlai chicken gravy cooked in thick velvety spiced cashew sauce garnished with coriander and cream swirls">
+                </div>
+                <div class="menu-content">
+                    <div class="menu-header">
+                        <h4 class="dish-title">Special Mughlai Gravy</h4>
+                        <span class="dish-price">₹380</span>
+                    </div>
+                    <p class="dish-desc">Rich, flavorful, and perfectly simmered boneless chicken cuts in an aromatic
+                        cashew gravy.</p>
+                </div>
+            </div>
+            <div class="menu-card">
+                <div class="menu-img-wrap">
+                    <img src="images/NizamiMuttonKorma.png"
+                        alt="Slow-braised Mutton Rogan Josh simmering in rich red spiced gravy with fragrant whole cloves and cardamom">
+                </div>
+                <div class="menu-content">
+                    <div class="menu-header">
+                        <h4 class="dish-title">Nizami Mutton Korma</h4>
+                        <span class="dish-price">₹450</span>
+                    </div>
+                    <p class="dish-desc">Tender cuts of fresh mutton slow-cooked with caramelized onions and saffron
+                        broth.</p>
+                </div>
+            </div>
+            <div class="menu-card">
+                <div class="menu-img-wrap">
+                    <img src="images/CHarCoalChickenTikka.png"
+                        alt="Smoked tandoori chicken tikka skewers char-grilled on coal embers with mint dip and sliced lime onions">
+                </div>
+                <div class="menu-content">
+                    <div class="menu-header">
+                        <h4 class="dish-title">Charcoal Tandoori Tikka</h4>
+                        <span class="dish-price">₹320</span>
+                    </div>
+                    <p class="dish-desc">Juicy morsels charred over hot charcoal, marinated with hand-ground spices and
+                        hung curd.</p>
+                </div>
+            </div>
+        </div>
+    </section>
 
-                        <br /><br />
+    <!-- Real Google Reviews Section -->
+    <section class="section">
+        <div class="section-title-wrap">
+            <span class="section-tag">Google Maps Reviews</span>
+            <h2 class="section-heading">What Diners Say</h2>
+        </div>
+        <div class="grid-3">
+            <div class="glass-card">
+                <div style="color: #dfb13c; margin-bottom: 0.75rem;">
+                    <i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i><i
+                        class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i>
+                </div>
+                <blockquote
+                    style="font-family: 'Playfair Display', serif; font-style: italic; color: #ffffff; font-size: 0.95rem; margin-bottom: 1rem;">
+                    "Had a great experience here! The Mughlai chicken gravy was absolutely delicious—rich, flavorful,
+                    and perfectly cooked. The non-veg dishes were really satisfying."
+                </blockquote>
+                <strong style="color: #dfb13c; font-size: 0.85rem; display: block;">Tabish Dobani</strong>
+                <span style="color: #9ca3af; font-size: 0.75rem;">Local Guide • 91 Reviews</span>
+            </div>
 
-                        <font face="Georgia" size="4" color="saddlebrown">
-                            <b> Welcome to Royal Spice Restaurant where taste meets tradition. </b>
-                        </font>
-                    </td>
-                </tr>
-            </table>
-        </section>
+            <div class="glass-card">
+                <div style="color: #dfb13c; margin-bottom: 0.75rem;">
+                    <i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i><i
+                        class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i>
+                </div>
+                <blockquote
+                    style="font-family: 'Playfair Display', serif; font-style: italic; color: #ffffff; font-size: 0.95rem; margin-bottom: 1rem;">
+                    "Recently Opened, not sure when but amazing ambiance and Awesome food."
+                </blockquote>
+                <strong style="color: #dfb13c; font-size: 0.85rem; display: block;">Mohd Haider Khan</strong>
+                <span style="color: #9ca3af; font-size: 0.75rem;">Local Guide • 40 Reviews</span>
+            </div>
 
-        <hr color="goldenrod" size="2" />
+            <div class="glass-card">
+                <div style="color: #dfb13c; margin-bottom: 0.75rem;">
+                    <i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i><i
+                        class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i>
+                </div>
+                <blockquote
+                    style="font-family: 'Playfair Display', serif; font-style: italic; color: #ffffff; font-size: 0.95rem; margin-bottom: 1rem;">
+                    "Great food great service. Worth trying if you enjoy authentic Mughlai flavours!"
+                </blockquote>
+                <strong style="color: #dfb13c; font-size: 0.85rem; display: block;">Pooja Rajbhar</strong>
+                <span style="color: #9ca3af; font-size: 0.75rem;">Verified Diner</span>
+            </div>
+        </div>
+    </section>
 
-        <!-- RESTAURANT IMAGE -->
-        <section>
-            <table width="100%" cellpadding="10" cellspacing="0" border="0">
-                <tr>
-                    <td align="center">
-                        <img src="images/Restaurant.jpg.jpeg" alt="Royal Spice Restaurant Interior" width="800"
-                            height="350" />
-                    </td>
-                </tr>
-            </table>
-        </section>
-
-        <hr color="goldenrod" size="2" />
-
-        <!-- WHY CHOOSE US SECTION -->
-        <section>
-            <table width="100%" cellpadding="10" cellspacing="0" border="0">
-                <tr>
-                    <td align="center">
-                        <font face="Georgia" size="5" color="maroon">
-                            <b> Why Choose Us? </b>
-                        </font>
-                    </td>
-                </tr>
-
-                <tr>
-                    <td align="center">
-                        <font face="Georgia" size="4" color="saddlebrown">
-                            <ul align="left">
-                                <li>Fresh Ingredients</li>
-                                <li>Experienced Chefs</li>
-                                <li>Family Friendly</li>
-                                <li>Fast Service</li>
-                            </ul>
-                        </font>
-                    </td>
-                </tr>
-            </table>
-        </section>
-
-        <hr color="goldenrod" size="2" />
-
-        <!-- TODAY'S SPECIAL SECTION -->
-        <section>
-            <table bgcolor="wheat" bordercolor="goldenrod" width="100%" cellpadding="15" cellspacing="0" border="1">
-                <tr>
-                    <td align="center">
-                        <font face="Georgia" size="5" color="maroon">
-                            <b> Today's Special </b>
-                        </font>
-                        <br /><br />
-                        <font face="Georgia" size="4" color="saddlebrown">
-                            <b>
-                                Paneer Butter Masala &nbsp; | &nbsp;
-                                Chicken Biryani &nbsp; | &nbsp;
-                                Veg Pizza &nbsp; | &nbsp;
-                                White Sauce Pasta &nbsp; | &nbsp;
-                                Chocolate Brownie
-                            </b>
-                        </font>
-                    </td>
-                </tr>
-            </table>
-        </section>
-
-        <hr color="goldenrod" size="2" />
-
-        <!-- OPENING HOURS SECTION -->
-        <section>
-            <table width="100%" cellpadding="10" cellspacing="0" border="0">
-                <tr>
-                    <td align="center">
-                        <font face="Georgia" size="5" color="maroon">
-                            <b> Opening Hours </b>
-                        </font>
-
-                        <br /><br />
-
-                        <table width="55%" border="1" cellpadding="10" cellspacing="0" align="center"
-                            bordercolor="goldenrod" bgcolor="white">
-                            <tr bgcolor="wheat">
-                                <th>
-                                    <font face="Georgia" size="4" color="maroon"> Day </font>
-                                </th>
-                                <th>
-                                    <font face="Georgia" size="4" color="maroon"> Hours </font>
-                                </th>
-                            </tr>
-
-                            <tr>
-                                <td align="center">
-                                    <font face="Georgia" size="4" color="saddlebrown"> Monday - Friday </font>
-                                </td>
-                                <td align="center">
-                                    <font face="Georgia" size="4" color="saddlebrown"> 10:00 AM - 10:00 PM </font>
-                                </td>
-                            </tr>
-
-                            <tr>
-                                <td align="center">
-                                    <font face="Georgia" size="4" color="saddlebrown"> Saturday </font>
-                                </td>
-                                <td align="center">
-                                    <font face="Georgia" size="4" color="saddlebrown"> 09:00 AM - 11:00 PM </font>
-                                </td>
-                            </tr>
-
-                            <tr>
-                                <td align="center">
-                                    <font face="Georgia" size="4" color="saddlebrown"> Sunday </font>
-                                </td>
-                                <td align="center">
-                                    <font face="Georgia" size="4" color="saddlebrown"> 09:00 AM - 11:00 PM </font>
-                                </td>
-                            </tr>
-                        </table>
-                    </td>
-                </tr>
-            </table>
-        </section>
-
-        <hr color="goldenrod" size="2" />
-
-        <!-- CUSTOMER REVIEW SECTION -->
-        <section>
-            <table width="100%" cellpadding="10" cellspacing="0" border="0">
-                <tr>
-                    <td align="center">
-                        <font face="Georgia" size="5" color="maroon">
-                            <b> Customer Review </b>
-                        </font>
-
-                        <br /><br />
-
-                        <font face="Georgia" size="4" color="saddlebrown">
-                            <i> "Amazing food, beautiful atmosphere and excellent service." </i>
-                        </font>
-
-                        <br /><br />
-
-                        <font size="5" color="gold"> ★★★★★ </font>
-                    </td>
-                </tr>
-            </table>
-        </section>
-    </main>
-
-    <hr color="goldenrod" size="2" />
-
-    <!-- FOOTER -->
+    <!-- Footer -->
     <footer>
-        <table width="100%" cellpadding="10" cellspacing="0" border="0">
-            <tr>
-                <td align="center">
-                    <font face="Georgia" size="4" color="saddlebrown">
-                        © 2026 Royal Spice Restaurant. All Rights Reserved.
-                    </font>
-
-                    <br /><br />
-
-                    <font face="Georgia" size="4" color="maroon">
-                        <b> Thank You For Visiting Our Website! </b>
-                    </font>
-                </td>
-            </tr>
-        </table>
+        <div class="footer-content">
+            <h2 style="font-family: 'Cinzel', serif; color: #dfb13c; letter-spacing: 0.15em;">DAR E NIZAMAT</h2>
+            <p style="color: #9ca3af; font-size: 0.85rem; margin-top: 0.5rem;">Elite C, Opposite Palm Riviera, Mumbra,
+                Thane, Maharashtra 400612</p>
+            <p class="footer-copy">© 2026 Dar E Nizamat (दर ए निज़ामात). All Rights Reserved.</p>
+        </div>
     </footer>
+
 </body>
 
 </html>
